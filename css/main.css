@@ -76,7 +76,7 @@ body {
 
 #wrapper > .slide#s1 {
     background-color: #03003c;
-    background-image: url(../img/backgrounds/s1.png);
+    background-image: url(../img/backgrounds/s1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -125,4 +125,23 @@ body {
     font-family: 'CenturyGothic';
     padding: 0.18em;
     box-shadow: 5px 0 0 #bd0052, -5px 0 0 #bd0052;
+}
+
+#wrapper > .slide#s1 > .container > img.dicon{
+    display: block;
+    position: absolute;
+    z-index: 5;
+}
+
+#wrapper > .slide#s1 > .container > img.dicon#n1{
+    top: 80px;
+    left: 8px;
+}
+#wrapper > .slide#s1 > .container > img.dicon#n2{
+    top: 64px;
+    right: 13px;
+}
+#wrapper > .slide#s1 > .container > img.dicon#n3{
+    top: 322px;
+    left: 8px;
 }
