@@ -1,0 +1,54 @@
+@keyframes txt_promo_ani {
+    from {
+        opacity: 0;
+        margin-left: 50px;
+    }
+    to {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+@-moz-keyframes txt_promo_ani {
+    from {
+        opacity: 0;
+        margin-left: 50px;
+    }
+    to {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+@-webkit-keyframes txt_promo_ani {
+    from {
+        opacity: 0;
+        margin-left: 50px;
+    }
+    to {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+@-ms-keyframes txt_promo_ani {
+    from {
+        opacity: 0;
+        margin-left: 50px;
+    }
+    to {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+@-o-keyframes txt_promo_ani {
+    from {
+        opacity: 0;
+        margin-left: 50px;
+    }
+    to {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
