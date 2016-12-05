@@ -385,11 +385,33 @@ body {
     text-decoration: none;
 }
 
+
+#wrapper > .slide#s4 > .container > ul > li > a::before,#wrapper > .slide#s4 > .container > ul > li > a:before {
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+    height:100%;
+    background: linear-gradient(#fff,#fff,#000);
+    content: "";
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+
+#wrapper > .slide#s4 > .container > ul > li > a:hover::before,#wrapper > .slide#s4 > .container > ul > li > a:hover:before {
+
+    opacity: .15;
+}
+
 #wrapper > .slide#s4 > .container > ul > li > a > span.desc {
     display: block;
     position: relative;
     float: right;
-    width: 242px;
+    width: 238px;
 }
 
 #wrapper > .slide#s4 > .container > ul > li > a > span.desc > p.name {
@@ -429,6 +451,15 @@ body {
     background-color: #eac348;
     font-size: 1.181em;
     font-family: 'CenturyGothic-Bold';
+    -webkit-transition: all s;
+    transition: all .2s;
+}
+
+#wrapper > .slide#s4 > .container > ul > li > a:hover > span.desc > button {
+
+    color: #eac348;
+    border: #eac348 1px solid;
+    background-color: #db008c;
 }
 #wrapper > .slide#s4 > .container > ul > li > a > span.label {
     display: block;
