@@ -16,6 +16,10 @@ body {
     font-size: 10px;
 }
 
+.clearfix {
+    clear: both;
+}
+
 #wrapper {
     display: block;
     position: relative;
@@ -133,92 +137,104 @@ body {
     box-shadow: 5px 0 0 #bd0052, -5px 0 0 #bd0052;
 }
 
-#wrapper > .slide#s1 > .container > img.dicon{
+#wrapper > .slide#s1 > .container > img.dicon {
     display: block;
     position: absolute;
     z-index: 5;
 }
 
-#wrapper > .slide#s1 > .container > img.dicon#n1{
+#wrapper > .slide#s1 > .container > img.dicon#n1 {
     top: 80px;
     left: 8px;
 }
-#wrapper > .slide#s1 > .container > img.dicon#n2{
+
+#wrapper > .slide#s1 > .container > img.dicon#n2 {
     top: 64px;
     right: 13px;
 }
-#wrapper > .slide#s1 > .container > img.dicon#n3{
+
+#wrapper > .slide#s1 > .container > img.dicon#n3 {
     top: 322px;
     left: 8px;
 }
-#wrapper > .slide#s2{
+
+#wrapper > .slide#s2 {
     padding-top: 115px;
     background-color: #03003c;
     padding-bottom: 92px;
 }
-#wrapper > .slide#s2 > .container > img.ico{
+
+#wrapper > .slide#s2 > .container > img.ico {
     position: absolute;
 }
-#wrapper > .slide#s2 > .container > img.ico#plus{
+
+#wrapper > .slide#s2 > .container > img.ico#plus {
     top: -5px;
     left: -3px;
 }
-#wrapper > .slide#s2 > .container > img.ico#i1{
+
+#wrapper > .slide#s2 > .container > img.ico#i1 {
     top: -107px;
     right: -18px;
 }
-#wrapper > .slide#s2 > .container > span#d{
+
+#wrapper > .slide#s2 > .container > span#d {
     font-size: 2.71em;
     font-family: 'CenturyGothic-Bold';
     top: -9px;
     left: 21px;
-    position:absolute;
+    position: absolute;
     color: #fff;
     line-height: 23px;
 }
-#wrapper > .slide#s2 > .container > img.ico#i2{
+
+#wrapper > .slide#s2 > .container > img.ico#i2 {
     top: 250px;
     left: -20px;
 }
-#wrapper > .slide#s2 > .container > .column#c1{
+
+#wrapper > .slide#s2 > .container > .column#c1 {
     width: 59.294117647058826%;
 }
-#wrapper > .slide#s2 > .container > .column#c1 > img{
+
+#wrapper > .slide#s2 > .container > .column#c1 > img {
     width: 100%;
     max-width: 220px;
     margin: auto;
 }
 
-#wrapper > .slide#s2 > .container > .column#c2{
+#wrapper > .slide#s2 > .container > .column#c2 {
     width: 40.705882352941174%;
 }
 
-#wrapper > .slide#s2 > .container > .column#c2 > h4{
+#wrapper > .slide#s2 > .container > .column#c2 > h4 {
     font-family: 'CenturyGothic-Bold';
     color: #fff;
     font-size: 2.295em;
     margin: 0 0 15px 0;
 }
 
-#wrapper > .slide#s2 > .container > .column#c2 > h5{
+#wrapper > .slide#s2 > .container > .column#c2 > h5 {
     font-family: 'CenturyGothic-Bold';
     color: #fff;
     font-size: 2.295em;
     margin: 13px 0 25px 0;
 }
 
-#wrapper > .slide#s2 > .container > .column#c2 > ul{
+#wrapper > .slide#s2 > .container > .column#c2 > ul {
     list-style: none;
     margin: 0;
     padding: 0 0 13px 0;
     border-bottom: #eac348 1px solid;
 }
-#wrapper > .slide#s2 > .container > .column#c2 > ul > li{
+
+#wrapper > .slide#s2 > .container > .column#c2 > ul > li {
     color: #5da4ad;
     font-size: 1.941em;
     font-family: 'CenturyGothic-Bold';
 }
-#wrapper > .slide#s2 > .container > .column#c2 > button.btnInscribete{
+
+#wrapper > .slide#s2 > .container > .column#c2 > button.btnInscribete {
     border: none;
     background-color: #eac348;
     font-family: 'CenturyGothic-Bold';
@@ -230,10 +246,12 @@ body {
     cursor: pointer;
     outline: none;
 }
-#wrapper > .slide#s3{
+
+#wrapper > .slide#s3 {
     background-color: #fff;
 }
-#wrapper > .slide#s3 > .container > #text-wrapper{
+
+#wrapper > .slide#s3 > .container > #text-wrapper {
     width: 100%;
     max-width: 194px;
     display: block;
@@ -241,23 +259,27 @@ body {
     margin: auto;
     margin-bottom: 26px;
 }
-#wrapper > .slide#s3 > .container > #text-wrapper > h4{
+
+#wrapper > .slide#s3 > .container > #text-wrapper > h4 {
     line-height: 42px;
     font-size: 3.11em;
     margin: 63px 0 1px 0;
     color: #191548;
 }
-#wrapper > .slide#s3 > .container > #text-wrapper > h4 > span{
+
+#wrapper > .slide#s3 > .container > #text-wrapper > h4 > span {
     color: #53a4b0;
 }
-#wrapper > .slide#s3 > .container > #text-wrapper > hr{
+
+#wrapper > .slide#s3 > .container > #text-wrapper > hr {
     height: 3px;
     border: none;
     background-color: #53a4b0;
     width: 30px;
     margin: 0 0 38px 0;
 }
-#wrapper > .slide#s3 > .container > #text-wrapper > p{
+
+#wrapper > .slide#s3 > .container > #text-wrapper > p {
     color: #000;
     font-size: 0.94em;
     margin-top: 0;
@@ -265,18 +287,21 @@ body {
     font-family: 'CenturyGothic';
     font-weight: 900;
 }
-#wrapper > .slide#s3 > .container > #text-wrapper > p.centered{
+
+#wrapper > .slide#s3 > .container > #text-wrapper > p.centered {
     text-align: center;
 }
-#wrapper > .slide#s3 > .container > #text-wrapper > p.centered > strong{
+
+#wrapper > .slide#s3 > .container > #text-wrapper > p.centered > strong {
     font-weight: 100;
     font-family: 'CenturyGothic-Bold';
     font-size: 0.91em;
 }
+
 #wrapper > .slide#s3 > .container > .btnInscribete {
     border: none;
     background-color: #c90087;
-    color:#fff;
+    color: #fff;
     font-family: 'CenturyGothic';
     font-size: 1.03em;
     display: block;
@@ -291,15 +316,131 @@ body {
     display: block;
     position: absolute;
 }
+
 #wrapper > .slide#s3 > .container > img.icon#i1 {
     top: -10px;
     left: -18px;
 }
+
 #wrapper > .slide#s3 > .container > img.icon#i2 {
     top: -50px;
     right: -18px;
 }
-#wrapper > .slide#s3 > .container > img.icon#i3 {
-    bottom: -40px;
-    left: -18px;
+
+#wrapper > .slide#s4 {
+    background-color: #03003c;
+}
+
+#wrapper > .slide#s4 > .container > #block-title {
+    padding: 52px 0;
+}
+
+#wrapper > .slide#s4 > .container > #block-title > h4 {
+    font-size: 3.4em;
+    line-height: 28px;
+    margin: 0;
+}
+
+#wrapper > .slide#s4 > .container > #block-title > h4 > span {
+    display: block;
+}
+
+#wrapper > .slide#s4 > .container > #block-title > h4 > span#ht1 {
+    color: #53a4b0;
+    font-family: 'CenturyGothic-Bold';
+    padding: 6px 0;
+}
+
+#wrapper > .slide#s4 > .container > #block-title > h4 > span#ht2 {
+    color: #fff;
+    font-family: 'CenturyGothic';
+    padding: 6px 0;
+}
+
+#wrapper > .slide#s4 > .container > #block-title > hr {
+    height: 2px;
+    width: 18px;
+    margin: 6px 0;
+    border: 0;
+    background-color: #53a4b0;
+}
+
+#wrapper > .slide#s4 > .container > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+}
+
+#wrapper > .slide#s4 > .container > ul > li {
+    display: block;
+    position: relative;
+}
+
+#wrapper > .slide#s4 > .container > ul > li > a {
+    display: block;
+    position: relative;
+    background-color: #eac348;
+    text-decoration: none;
+}
+
+#wrapper > .slide#s4 > .container > ul > li > a > span.desc {
+    display: block;
+    position: relative;
+    float: right;
+    width: 242px;
+}
+
+#wrapper > .slide#s4 > .container > ul > li > a > span.desc > p.name {
+    display: block;
+    font-family: 'CenturyGothic-Bold';
+    text-align: center;
+    font-size: 1.358em;
+    margin-top: 40px;
+    color: #191548;
+    margin-bottom: 0;
+}
+#wrapper > .slide#s4 > .container > ul > li > a > span.desc > p.when {
+    display: block;
+    font-size: 0.827em;
+    color: #191548;
+    text-align: center;
+    font-family: 'CenturyGothic-Bold';
+    margin: 17px 0 0 0;
+}
+#wrapper > .slide#s4 > .container > ul > li > a > span.desc > p.where {
+    display: block;
+    font-size: 0.827em;
+    color: #191548;
+    text-align: center;
+    font-family: 'CenturyGothic-Bold';
+    margin: 7px 0 0 0;
+}
+#wrapper > .slide#s4 > .container > ul > li > a > span.desc > img {
+    display: block;
+    margin: 22px auto 0 auto;
+}
+#wrapper > .slide#s4 > .container > ul > li > a > span.desc > button {
+    display: block;
+    margin: 22px auto 0 auto;
+    color: #db008c;
+    border: #db008c 1px solid;
+    background-color: #eac348;
+    font-size: 1.181em;
+    font-family: 'CenturyGothic-Bold';
+}
+#wrapper > .slide#s4 > .container > ul > li > a > span.label {
+    display: block;
+    padding: 8px 0;
+    background-color: #53a4b0;
+}
+#wrapper > .slide#s4 > .container > ul > li > a > span.label > p {
+    display: block;
+    color: #fff;
+    line-height: 20px;
+    font-size: 1.486em;
+    font-family: 'CenturyGothic-Bold';
+    padding-left: 38px;
+    margin: 0;
 }
