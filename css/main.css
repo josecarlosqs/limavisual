@@ -74,6 +74,12 @@ body {
     margin-right: auto;
 }
 
+#wrapper > .slide > .container > .column {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
 #wrapper > .slide#s1 {
     background-color: #03003c;
     background-image: url(../img/backgrounds/s1.jpg);
@@ -144,4 +150,93 @@ body {
 #wrapper > .slide#s1 > .container > img.dicon#n3{
     top: 322px;
     left: 8px;
+}
+#wrapper > .slide#s2{
+    padding-top: 115px;
+    background-color: #03003c;
+    padding-bottom: 92px;
+}
+#wrapper > .slide#s2 > .container > img.ico{
+    position: absolute;
+}
+#wrapper > .slide#s2 > .container > img.ico#plus{
+    top: -5px;
+    left: -3px;
+}
+#wrapper > .slide#s2 > .container > img.ico#i1{
+    top: -107px;
+    right: -18px;
+}
+#wrapper > .slide#s2 > .container > span#d{
+    font-size: 2.71em;
+    font-family: 'CenturyGothic-Bold';
+    top: -9px;
+    left: 21px;
+    position:absolute;
+    color: #fff;
+    line-height: 23px;
+}
+#wrapper > .slide#s2 > .container > img.ico#i2{
+    top: 250px;
+    left: -20px;
+}
+#wrapper > .slide#s2 > .container > .column#c1{
+    width: 59.294117647058826%;
+}
+#wrapper > .slide#s2 > .container > .column#c1 > img{
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+#wrapper > .slide#s2 > .container > .column#c2{
+    width: 40.705882352941174%;
+}
+
+#wrapper > .slide#s2 > .container > .column#c2 > h4{
+    font-family: 'CenturyGothic-Bold';
+    color: #fff;
+    font-size: 2.295em;
+    margin: 0 0 15px 0;
+}
+
+#wrapper > .slide#s2 > .container > .column#c2 > h5{
+    font-family: 'CenturyGothic-Bold';
+    color: #fff;
+    font-size: 2.295em;
+    margin: 13px 0 25px 0;
+}
+
+#wrapper > .slide#s2 > .container > .column#c2 > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0 0 13px 0;
+    border-bottom: #eac348 1px solid;
+}
+#wrapper > .slide#s2 > .container > .column#c2 > ul > li{
+    color: #5da4ad;
+    font-size: 1.941em;
+    font-family: 'CenturyGothic-Bold';
+}
+#wrapper > .slide#s2 > .container > .column#c2 > button#btnInscribete{
+    border: none;
+    background-color: #eac348;
+    font-family: 'CenturyGothic-Bold';
+    font-size: 1.03em;
+    display: block;
+    padding: 0 10px;
+    line-height: 18px;
+    color: #040048;
+    cursor: pointer;
+    outline: none;
+}
+#wrapper > .slide#s3{
+
+}
+#wrapper > .slide#s3 > .container > #text-wrapper{
+    width: 100%;
+    max-height: 194px;
+    display: block;
+    position: relative;
+    margin: auto;
 }
