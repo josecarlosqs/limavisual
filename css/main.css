@@ -19,7 +19,6 @@ body {
 .clearfix {
     clear: both;
 }
-
 #wrapper {
     display: block;
     position: relative;
@@ -543,20 +542,22 @@ body {
     position: relative;
 }
 
-#wrapper > .slide#s5 > .container > ul > li > a:before,#wrapper > .slide#s5 > .container > ul > li > a::before {
+#wrapper > .slide#s5 > .container > ul > li > a:before,
+#wrapper > .slide#s5 > .container > ul > li > a::before {
     display: block;
     position: absolute;
     content: "";
     background: #fff;
-    width:100%;
+    width: 100%;
     height: 100%;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     opacity: 0;
     transition: opacity .2s ease-out;
 }
 
-#wrapper > .slide#s5 > .container > ul > li > a:hover:before,#wrapper > .slide#s5 > .container > ul > li > a:hover::before {
+#wrapper > .slide#s5 > .container > ul > li > a:hover:before,
+#wrapper > .slide#s5 > .container > ul > li > a:hover::before {
     opacity: 0.1;
 }
 
@@ -565,6 +566,7 @@ body {
     width: 100%;
     margin: auto;
 }
+
 #wrapper > .slide#s5 > .container > ul > li > a > span > .day {
     display: block;
     color: #eac348;
@@ -573,6 +575,7 @@ body {
     font-family: 'CenturyGothic-Bold';
     margin: 110px 0 0 0;
 }
+
 #wrapper > .slide#s5 > .container > ul > li > a > span > .num {
     display: block;
     color: #eac348;
@@ -596,26 +599,6 @@ body {
     background-position: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #wrapper > .slide#s6 {
     background-color: #fff;
 }
@@ -632,7 +615,6 @@ body {
     color: #53a4b0;
 }
 
-
 #wrapper > .slide#s6 > .container > #block-title > hr {
     height: 2px;
     width: 18px;
@@ -648,12 +630,36 @@ body {
     margin: 0 auto 18px 0;
 }
 
+#wrapper > .slide#s7 {
+    display: block;
+    background-color: #03003c;
+    padding: 34px 0;
+}
 
-@media only screen and (min-width: 450px) {
+#wrapper > .slide#s7 > .container > .column {
+    display: block;
+    float: right;
+    width: 33.33333%;
+    position: relative;
+}
 
+#wrapper > .slide#s7 > .container > .column > img{
+    display: block;
+    width: 41.1764705882353%;
+    margin: auto;
+}
+
+#wrapper > .slide#s7 > .container > .column > p{
+    display: block;
+    margin:  16x 0 0 0;
+    font-size: .57em;
+    font-family: 'CenturyGothic-Bold';
+    color: #fff;
+    text-align: center;
 }
 
 
-@media only screen and (min-width: 1024px) {
 
-}
+@media only screen and (min-width: 450px) {}
+
+@media only screen and (min-width: 1024px) {}
