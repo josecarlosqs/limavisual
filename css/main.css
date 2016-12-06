@@ -86,7 +86,7 @@ body {
 #wrapper > .slide#s1 {
     background-color: #03003c;
     background-image: url(../img/backgrounds/s1.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 50px;
@@ -150,11 +150,15 @@ body {
 #wrapper > .slide#s1 > .container > img.dicon#n2 {
     top: 64px;
     right: 13px;
+    width: 19px;
+    height: 47px;
 }
 
 #wrapper > .slide#s1 > .container > img.dicon#n3 {
     top: 322px;
     left: 8px;
+    width: 43px;
+    height: 32px;
 }
 
 #wrapper > .slide#s2 {
@@ -696,6 +700,30 @@ body {
 }
 
 
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+
+    #wrapper > .slide > .container {
+        max-width: 1024px;
+    }
+    #top-menu > ul > li > a {
+        font-size: 1em;
+    }
+    #wrapper > .slide#s1 > .container > div#txtPromo{
+        width: 335px;
+        top: 333px;
+    }
+    #wrapper > .slide#s1 > .container > div#txtPromo > span{
+        font-size: 3.173em;
+    }
+    #wrapper > .slide#s1 > .container > img#logo {
+        width: 36.1328125%;
+        margin-top: 174px;
+        margin-left: 42.28515625%;
+    }
+    #wrapper > .slide#s1 > .container > .btnInscribete {
+        font-size: 1.539em;
+        line-height: 27px;
+    }
+}
 
 @media only screen and (min-width: 1417px) {}
