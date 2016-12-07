@@ -32,7 +32,7 @@ body {
     top: 0;
     width: 100%;
     z-index: 3;
-    border-bottom: 2px #5a5786 solid;
+    /*border-bottom: 2px #5a5786 solid;*/
 }
 
 #top-menu > ul {
