@@ -1080,6 +1080,126 @@ body {
     zoom: 0.5;
 }
 
+#wrapper > #scrProf{
+    display: block;
+    position: relative;
+}
+#wrapper > #scrProf > #header{
+    display: block;
+    position: relative;
+    background-color: #10094d;
+    padding: 94px 0 40px 0;
+}
+
+#wrapper > #scrProf > #header > div > h4{
+    font-size: 2.13em;
+    font-family: 'CenturyGothic-Bold';
+    color: #fff;
+    margin: auto;
+}
+
+#wrapper > #scrProf > #header > div > h5{
+    margin: 54px auto 0 auto;
+    color: #eac348;
+    font-size: 1.168em;
+    font-family: 'CenturyGothic-Bold';
+}
+#wrapper > #scrProf > #header > div{
+    max-width: 345px;
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+#wrapper > #scrProf > #header > div > img{
+    display: block;
+    top: 0px;
+    right: 0;
+    zoom: .43;
+    position: absolute;
+}
+#wrapper > #scrProf > #body{
+    background: #fff;
+}
+#wrapper > #scrProf > #body > #container{
+    display: block;
+    position: relative;
+    max-width: 240px;
+    width: 100%;
+    margin: auto;
+    padding: 35px 0 0 0;
+}
+#wrapper > #scrProf > #body > #container > img{
+    display: block;
+    position: absolute;
+    left: -150px;
+    top: 68px;
+    width: 71px;
+    height: auto;
+}
+
+#wrapper > #scrProf > #body > #container > h4{
+    display: block;
+    position: relative;
+    margin: 0;
+    color: #191548;
+    font-size: 1.458em;
+    font-family: 'CenturyGothic-Bold';
+}
+#wrapper > #scrProf > #body > #container > h5{
+    display: block;
+    position: relative;
+    margin: 37px 0 0 0;
+    color: #bd0051;
+    font-size: 0.96em;
+    font-family: 'CenturyGothic';
+}
+#wrapper > #scrProf > #body > #container > p{
+    display: block;
+    position: relative;
+    margin: 38px 0 0 0;
+    color: #000;
+    font-size: .96em;
+    font-family: 'CenturyGothic';
+}
+#wrapper > #scrProf > #body > #container > p > strong{
+    font-family: 'CenturyGothic-Bold';
+}
+#wrapper > #scrProf > #body > #container > h6{
+    display: block;
+    position: relative;
+    margin: 26px 0 0 0;
+    color: #bd0051;
+    font-size: .962em;
+    font-family: 'CenturyGothic-Bold';
+}
+#wrapper > #scrProf > #body > #container > h6 > span{
+    position: relative;
+    padding-right: 60px;
+    border-bottom: 1px #000 solid;
+}
+#wrapper > #scrProf > #body > #container > p.bold{
+    margin-top: 18px;
+    font-family: 'CenturyGothic-Bold';
+}
+#wrapper > #scrProf > #body > #container > a{
+    display: block;
+    width: 57px;
+    height: 57px;
+    background-image: url(../img/mano.jpg);
+    margin-top: 27px;
+}
+#wrapper > #scrProf > #body > #container > button{
+    color: #fff;
+    background-color: #db008c;
+    font-size: 1.058em;
+    font-family: 'CenturyGothic-Bold';
+    line-height: 21px;
+    padding: 0 20px;
+    margin: 30px 0;
+    border: none;
+}
+
 @media only screen and (min-width: 1024px) {
     #wrapper > .slide > .container {
         max-width: 1024px;
@@ -1186,7 +1306,7 @@ body {
         width: 41px;
     }
     #wrapper > .slide#s3 > .container > #text-wrapper > div#sec2 > p {
-        font-size: 1.29em;
+        font-size: 1em;
         text-align: left!important;
         padding-right: 194px;
         padding-left: 38px;
@@ -1332,6 +1452,114 @@ body {
         top: 138px;
     }
     
+    #wrapper > #scrProf > #body > #container{
+        display: block;
+        position: relative;
+        max-width: 500px;
+        width: 100%;
+        margin: auto;
+        padding: 74px 0 0 0;
+    }
+    #wrapper > #scrProf > #body > #container > img{
+        display: block;
+        position: absolute;
+        left: -150px;
+        top: 68px;
+        width: 71px;
+        height: auto;
+    }
+
+    #wrapper > #scrProf > #body > #container > h4{
+        display: block;
+        position: relative;
+        margin: 0;
+        color: #191548;
+        font-size: 3.15em;
+        font-family: 'CenturyGothic-Bold';
+    }
+    #wrapper > #scrProf > #body > #container > h5{
+        display: block;
+        position: relative;
+        margin: 76px 0 0 0;
+        color: #bd0051;
+        font-size: 2.086em;
+        font-family: 'CenturyGothic';
+    }
+    #wrapper > #scrProf > #body > #container > p{
+        display: block;
+        position: relative;
+        margin: 38px 0 0 0;
+        color: #000;
+        font-size: 2.086em;
+        font-family: 'CenturyGothic';
+    }
+    #wrapper > #scrProf > #body > #container > p > strong{
+        font-family: 'CenturyGothic-Bold';
+    }
+    #wrapper > #scrProf > #body > #container > h6{
+        display: block;
+        position: relative;
+        margin: 58px 0 0 0;
+        color: #bd0051;
+        font-size: 2.086em;
+        font-family: 'CenturyGothic-Bold';
+    }
+    #wrapper > #scrProf > #body > #container > h6 > span{
+        position: relative;
+        padding-right: 60px;
+        border-bottom: 1px #000 solid;
+    }
+    #wrapper > #scrProf > #body > #container > p.bold{
+        margin-top: 18px;
+        font-family: 'CenturyGothic-Bold';
+    }
+    #wrapper > #scrProf > #body > #container > a{
+        display: block;
+        width: 57px;
+        height: 57px;
+        background-image: url(../img/mano.jpg);
+        margin-top: 57px;
+    }
+    #wrapper > #scrProf > #body > #container > button{
+        color: #fff;
+        background-color: #db008c;
+        font-size: 2.286em;
+        font-family: 'CenturyGothic-Bold';
+        line-height: 41px;
+        padding: 0 20px;
+        margin: 70px 0;
+    }
+
+    #wrapper > #scrProf > #header > div > h4{
+        font-size: 4.601em;
+        font-family: 'CenturyGothic-Bold';
+        color: #fff;
+        margin: auto;
+    }
+
+    #wrapper > #scrProf > #header > div > h5{
+        margin: 114px auto 0 auto;
+        color: #eac348;
+        font-size: 2.523em;
+        font-family: 'CenturyGothic-Bold';
+    }
+    #wrapper > #scrProf > #header {
+        padding: 151px 0 70px 0;
+    }
+    #wrapper > #scrProf > #header > div{
+        max-width: 750px;
+        display: block;
+        position: relative;
+        margin: auto;
+        width: 100%;
+    }
+    #wrapper > #scrProf > #header > div > img{
+        display: block;
+        top: 0px;
+        right: 0;
+        zoom: .43;
+        position: absolute;
+    }
         
 }
 

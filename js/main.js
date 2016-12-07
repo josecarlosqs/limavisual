@@ -8,7 +8,7 @@ $(document).ready(function(){
         linkDayCharla = $(".linkDayCharla"),
         topLink = $(".topLink");
     btnInscribete.click(function(){
-        location.href = "registro.html";
+        location.href = "/registro.html";
     });
     selectBox.click(function(e){
         e.preventDefault();
