@@ -27,7 +27,7 @@ body {
 
 #top-menu {
     display: block;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
@@ -57,6 +57,7 @@ body {
     text-decoration: none;
     color: #fff;
     padding: 0 15px;
+    text-shadow: 2px 2px 6px black;
 }
 
 #top-menu > ul > li > a.active {
@@ -503,6 +504,12 @@ body {
     background-color: #53a4b0;
 }
 
+#wrapper > .slide#s4 > .container > ul > li > a > img{
+    width: 181px;
+    height: 231px;
+}
+
+
 #wrapper > .slide#s4 > .container > ul > li > a > span.label > p {
     display: block;
     color: #fff;
@@ -512,6 +519,12 @@ body {
     padding-left: 38px;
     margin: 0;
 }
+
+
+#wrapper > .slide#s4 > .container > ul > li > a > span.label.special {
+    padding: 18px 0;
+}
+
 
 #wrapper > .slide#s5 {
     background-color: #03003c;

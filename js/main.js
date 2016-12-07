@@ -5,7 +5,8 @@ $(document).ready(function(){
         menuBox = selectBox.next(),
         regForm = $("#form-container > form"),
         imgConfirmForm = $("#form-container > form").next(),
-        linkDayCharla = $(".linkDayCharla");
+        linkDayCharla = $(".linkDayCharla"),
+        topLink = $(".topLink");
     btnInscribete.click(function(){
         location.href = "registro.html";
     });
@@ -26,5 +27,9 @@ $(document).ready(function(){
     linkDayCharla.click(function(){
         linkDayCharla.removeClass("active");
         $(this).addClass("active")
+    });
+    topLink.click(function(){
+        topLink.removeClass("active");
+        $(this).addClass("active");
     });
 });
