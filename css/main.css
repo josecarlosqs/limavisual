@@ -43,6 +43,27 @@ body {
     padding: 0;
     text-align: center;
 }
+#top-menu > div#il {
+    display: none;
+    position: absolute;
+    border: 2px #4938df solid;
+    padding: 5px 15px;
+    top: 5px;
+    right: 30px;
+}
+
+#top-menu > div#il > p {
+    margin: 0;
+    font-size: 1.667em;
+    font-family: 'CenturyGothic';
+    text-align: center;
+    color: #5da4ad;
+}
+
+#top-menu > div#il > p > strong {
+    display: block;
+    font-family: 'CenturyGothic-Bold';
+}
 
 #top-menu > ul > li {
     display: inline-block;
@@ -1201,6 +1222,10 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
+
+    #top-menu > div#il {
+        display: block;
+    }
     #wrapper > .slide > .container {
         max-width: 1024px;
     }
@@ -1564,7 +1589,9 @@ body {
 }
 
 @media only screen and (min-width: 1417px) {
-
+    #top-menu > div#il {
+        display: block;
+    }
 
     #wrapper > #charlas > #body > .container{
         max-width: 1417px;
