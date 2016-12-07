@@ -8,7 +8,7 @@ $(document).ready(function(){
         linkDayCharla = $(".linkDayCharla"),
         topLink = $(".topLink");
     btnInscribete.click(function(){
-        location.href = "/registro.html";
+        location.href = "https://josecarlosqs.github.io/limavisual/registro.html";
     });
     selectBox.click(function(e){
         e.preventDefault();
