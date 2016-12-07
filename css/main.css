@@ -1563,4 +1563,18 @@ body {
         
 }
 
-@media only screen and (min-width: 1417px) {}
+@media only screen and (min-width: 1417px) {
+
+
+    #wrapper > #charlas > #body > .container{
+        max-width: 1417px;
+    }
+
+
+    #wrapper > #charlas > #body > .container > ul > li{
+        display: inline-block;
+        position: relative;
+        width: 33.33333%;
+        margin-left: -2px;
+    }
+}
