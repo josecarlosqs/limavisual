@@ -729,6 +729,132 @@ body {
     margin: 3px 0;
 }
 
+#wrapper > #scrReg {
+    display: block;
+    position: relative;
+    background-color: #10094d;
+    padding-top: 222px;
+}
+
+#wrapper > #scrReg >p#title {
+    display: block;
+    line-height: 70px;
+    font-size: 2.983em;
+    color: #eac348;
+    font-family: 'CenturyGothic-Bold';
+    margin: 0 0 0 0;
+    background-color: #03003c;
+    text-align: center;
+}
+#wrapper > #scrReg >div#form-container {
+    display: block;
+    max-width: 604px;
+    width: 100%;
+    padding: 114px 0 240px 0;
+    border-top: 10px #ff00ff solid;
+    background-color: #03003c;
+    margin: auto;
+}
+
+#wrapper > #scrReg >div#form-container > form {
+    display: block;
+    width: 100%;
+    max-width: 302px;
+    margin: auto;
+}
+
+#wrapper > #scrReg >div#form-container > form > label {
+    display: block;
+    line-height: 40px;
+    font-size: 2.059em;
+    color: #fff;
+    font-family: 'CenturyGothic';
+    margin-top: 80px;
+}
+#wrapper > #scrReg >div#form-container > form > input[type=text],
+#wrapper > #scrReg >div#form-container > form > input[type=email],
+#wrapper > #scrReg >div#form-container > form > input[type=tel],
+#wrapper > #scrReg >div#form-container > form > input[type=password],
+#wrapper > #scrReg >div#form-container > form > div#rootBox > button#selectBox{
+    display: block;
+    background: #fff;
+    font-size: 1.201em;
+    border: none;
+    width: 100%;
+    color: #000;
+    height: 33px;
+    line-height: 33px;
+    font-family: 'CenturyGothic';
+    text-align: left;
+    text-indent: 10px;
+}
+
+
+#wrapper > #scrReg >div#form-container > form >div#rootBox{
+    display: block;
+    position: relative;
+}
+#wrapper > #scrReg >div#form-container > form >div#rootBox >  button#selectBox{
+
+}
+#wrapper > #scrReg >div#form-container > form >div#rootBox >  ul{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+#wrapper > #scrReg >div#form-container > form >div#rootBox >  ul > li{
+    display: block;
+    position: relative;
+}
+#wrapper > #scrReg >div#form-container > form >div#rootBox >  ul > li > label{
+    display: block;
+    background: #fff;
+    font-size: 1.201em;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    color: #000;
+    height: 33px;
+    line-height: 33px;
+    font-family: 'CenturyGothic';
+    text-indent: 12px;
+}
+#wrapper > #scrReg >div#form-container > form >div#rootBox >  ul > li > label{
+    display: block;
+    background: #fff;
+    font-size: 1.201em;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    color: #000;
+    height: 33px;
+    line-height: 33px;
+    font-family: 'CenturyGothic';
+    text-indent: 12px;
+    transition: all .2s ease-out;
+}
+#wrapper > #scrReg >div#form-container > form >div#rootBox >  ul > li > label:hover{
+    background-color: #5da4ad;
+    color: #fff;
+}
+#wrapper > #scrReg >div#form-container > form >div#rootBox >  ul > li > label > input{
+    visibility: hidden;
+}
+#wrapper > #scrReg >div#form-container > form > input[type=submit]{
+    display: block;
+    margin: 133px auto 0 auto;
+    border: none;
+    font-size: 2.488em;
+    color: #eac348;
+    background-color: #bd0052;
+    font-family: 'CenturyGothic-Bold';
+    padding: 10px 25px;
+}
+
 @media only screen and (min-width: 1024px) {
     #wrapper > .slide > .container {
         max-width: 1024px;

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Limavisual</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/main.css"> </head>
+
+<body>
+    <div id="top-menu">
+        <ul>
+            <li><a href="#" class="active">INICIO</a></li>
+            <li><a href="#">LIMA VISUAL</a></li>
+            <li><a href="#">CONFERENCIAS MAGISTRALES</a></li>
+            <li><a href="#">CHARLAS Y TALLERES</a></li>
+        </ul>
+    </div>
+    <div id="wrapper">
+       <div id="scrReg">
+        <p id="title">REGISTRO</p>
+        <div id="form-container">
+            <form action="#">
+                <label for="txtNombres">Nombres y apellidos:</label>
+                <input type="text" id="txtNombres" maxlength="120">
+
+                <label for="txtCorreo">Correo:</label>
+                <input type="email" id="txtCorreo">
+
+                <label for="txtClave">Contrase&ntilde;a:</label>
+                <input type="password" id="txtClave">
+
+                <label for="txtTelefono">Tel&eacute;fono:</label>
+                <input type="email" id="txtTelefono">
+
+                <label for="txtCorreo">Selecciona una opci&oacute;n</label>
+                <div id="rootBox"><button id="selectBox"><span>Procedencia</span><i class="fa fa-caret-down" style="float: right; line-height: 33px; color: #c90086; font-size: 1.4em;" aria-hidden="true"></i></button>
+                <ul>
+                    <li><label><span>Alumno ISIL</span><input name="rdProcedencia" type="radio"></label></li>
+                    <li><label><span>Egresado ISIL</span><input name="rdProcedencia" type="radio"></label></li>
+                    <li><label><span>P&uacute;blico general</span><input name="rdProcedencia" type="radio"></label></li>
+                </ul></div>
+                <input type="submit" value="ENVIAR">
+            </form>
+            <center style="display: none;"><img src="img/conf_03.png" style="margin: auto;"></center>
+        </div>
+
+       </div>
+       <div class="slide" id="s8">
+            <div class="container">
+                <img src="img/logo_isil.png" alt="" id="logo">
+                <ul>
+                    <li><a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                </ul>
+                <p>Campuz La Molina:Av.La Fontana 888  I Campuz San Isidro :Av.Sanchez Carrión 265</p>
+                <p>Campuz Miraflores: Av  Benavides 778 I Campuz Jesús Maria:A.v San Felipe 212</p>
+                <p>Centrak Telef&oacute;nica 9582/456</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
