@@ -1306,7 +1306,7 @@ body {
         width: 41px;
     }
     #wrapper > .slide#s3 > .container > #text-wrapper > div#sec2 > p {
-        font-size: 1em;
+        font-size: 1.1em;
         text-align: left!important;
         padding-right: 194px;
         padding-left: 38px;
@@ -1490,7 +1490,7 @@ body {
         position: relative;
         margin: 38px 0 0 0;
         color: #000;
-        font-size: 2.086em;
+        font-size: 1.686em;
         font-family: 'CenturyGothic';
     }
     #wrapper > #scrProf > #body > #container > p > strong{
@@ -1501,7 +1501,7 @@ body {
         position: relative;
         margin: 58px 0 0 0;
         color: #bd0051;
-        font-size: 2.086em;
+        font-size: 1.686em;
         font-family: 'CenturyGothic-Bold';
     }
     #wrapper > #scrProf > #body > #container > h6 > span{
@@ -1531,7 +1531,7 @@ body {
     }
 
     #wrapper > #scrProf > #header > div > h4{
-        font-size: 4.601em;
+        font-size: 2.45em;
         font-family: 'CenturyGothic-Bold';
         color: #fff;
         margin: auto;
@@ -1540,7 +1540,7 @@ body {
     #wrapper > #scrProf > #header > div > h5{
         margin: 114px auto 0 auto;
         color: #eac348;
-        font-size: 2.523em;
+        font-size: 1.586em;
         font-family: 'CenturyGothic-Bold';
     }
     #wrapper > #scrProf > #header {
