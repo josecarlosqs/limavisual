@@ -855,6 +855,218 @@ body {
     padding: 10px 25px;
 }
 
+#wrapper > #charlas{
+    position: relative;
+    display: block;
+}
+
+#wrapper > #charlas > #header{
+    background-color: #10094d;
+    padding: 80px 0 40px 0;
+    position: relative;
+}
+#wrapper > #charlas > #header > h4{
+    display: block;
+    position: relative;
+    max-width: 230px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.913em;
+    
+}
+#wrapper > #charlas > #header > h4 > span:nth-child(1){
+    display: block;
+    color: #c90087;
+    font-family: 'CenturyGothic-Bold';
+}
+#wrapper > #charlas > #header > h4 > span:nth-child(2){
+    display: block;
+    color: #fff;
+    font-family: 'CenturyGothic';
+}
+#wrapper > #charlas > #header > h4 > hr{
+    display: block;
+    height: 2px;
+    width: 15px;
+    border: none;
+    margin: 5px;
+    background-color: #c90087;
+}
+#wrapper > #charlas > #header > h4 > img{
+    display: block;
+    margin: -105px -110px;
+    top: 50%;
+    right: 0;
+    position: absolute;
+    zoom: 0.4;
+}
+
+#wrapper > #charlas > #days{
+    background-color: #03003c;
+}
+#wrapper > #charlas > #days > ul{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 230px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+#wrapper > #charlas > #days > ul > li{
+    display: inline-block;
+    margin: auto;
+}
+
+#wrapper > #charlas > #days > ul > li > a{
+    display: block;
+    padding: 5px 0;
+    margin: 10px 12px;
+    text-decoration: none;
+}
+
+#wrapper > #charlas > #days > ul > li > a.active,
+#wrapper > #charlas > #days > ul > li > a:hover{
+    border-bottom: 2px #c90087 solid;
+}
+#wrapper > #charlas > #days > ul > li > a > p >span:nth-child(1){
+    text-align: center;
+    color: #53a4b0;
+    font-family: 'CenturyGothic-Bold';
+    display: block;
+    font-size: 1.2em;
+}
+#wrapper > #charlas > #days > ul > li > a > p >span:nth-child(2){
+    text-align: center;
+    color: #eac348;
+    font-size: .99em;
+    font-family: 'CenturyGothic-Bold';
+    display: block;
+}
+#wrapper > #charlas > #body{
+    background-color: #03003c;
+}
+#wrapper > #charlas > #body > .container{
+    display: block;
+    max-width: 230px;
+    margin: auto;
+    width:100%;
+}
+
+#wrapper > #charlas > #body > .container > ul{
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#wrapper > #charlas > #body > .container > ul > li{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+#wrapper > #charlas > #body > .container > ul > li > a{
+    display: block;
+    position: relative;
+    height: 230px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#wrapper > #charlas > #body > .container > ul > li > a:before,
+#wrapper > #charlas > #body > .container > ul > li > a::before{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#fff,#fff,#000);
+    content: "";
+    z-index: 20;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .5s ease-out;
+}
+#wrapper > #charlas > #body > .container > ul > li > a:hover:before,
+#wrapper > #charlas > #body > .container > ul > li > a:hover::before{
+    opacity: 0.25;
+}
+
+
+#wrapper > #charlas > #body > .container > ul > li > a > span {
+    display: block;
+    position: absolute;
+    top: 70px;
+    text-align: center;
+    width: 100%;
+    z-index: 23;
+}
+
+#wrapper > #charlas > #body > .container > ul > li > a > span > button{
+    display: block;
+    margin: auto;
+    font-family: 'CenturyGothic-Bold';
+    color: #c90087;
+    background-color: transparent;
+    font-size: 1.5em;
+    border: 1px #c90087 solid;
+    opacity: 0;
+    transition: all .4s ease-in;
+    z-index: 24;
+    
+}
+#wrapper > #charlas > #body > .container > ul > li > a:hover > span > button{
+    opacity: 1;
+}
+#wrapper > #charlas > #body > .container > ul > li > a:hover > span > button:hover{
+    opacity: 1;
+    color: #eac348;
+    background-color: #c90087;
+}
+
+
+#wrapper > #charlas > #body > .container > ul > li > a > p{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #eac348;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 22;
+}
+
+#wrapper > #charlas > #body > .container > ul > li > a > p > span:nth-child(1){
+    display: block;
+    color: #000;
+    font-size: 1.166em;
+    font-family: 'CenturyGothic-Bold';
+    padding: 0 14px;
+}
+
+#wrapper > #charlas > #body > .container > ul > li > a > p > span:nth-child(2){
+    display: block;
+    color: #000;
+    font-size: .82em;
+    font-family: 'CenturyGothic-Bold';
+    margin-top: 5px;
+    padding: 0 14px;
+}
+
+#wrapper > #charlas > #body > .container > ul > li > a > p > img{
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    zoom: 0.5;
+}
+
 @media only screen and (min-width: 1024px) {
     #wrapper > .slide > .container {
         max-width: 1024px;
@@ -1055,6 +1267,59 @@ body {
     #wrapper > .slide#s4 > .container > ul > li > button {
         right: 21.941176470588236%;
     }
+    
+    #wrapper > #charlas > #header > h4{
+        max-width: 550px;
+        font-size: 4.469em;
+    }
+    #wrapper > #charlas > #header > h4 > img{
+        zoom: .7;
+    }
+    #wrapper > #charlas > #days > ul{
+        max-width: 740px;
+    }
+    #wrapper > #charlas > #days > ul > li > a {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #wrapper > #charlas > #days > ul > li > a > p >span:nth-child(1){
+        font-size: 2.575em;
+    }
+    #wrapper > #charlas > #days > ul > li > a > p >span:nth-child(2){
+        font-size: 2.131em;
+    }
+    
+    #wrapper > #charlas > #body > .container{
+        max-width: 792px;
+    }
+
+
+    #wrapper > #charlas > #body > .container > ul > li{
+        display: inline-block;
+        position: relative;
+        width: 50%;
+        margin-left: -2px;
+    }
+    #wrapper > #charlas > #body > .container > ul > li > a{
+        height: 388px;
+    }
+    
+    #wrapper > #charlas > #body > .container > ul > li > a > p > span:nth-child(1){
+        font-size: 2.035em;
+    }
+
+    #wrapper > #charlas > #body > .container > ul > li > a > p > span:nth-child(2){
+        font-size: 1.435em;
+    }
+
+    #wrapper > #charlas > #body > .container > ul > li > a > p > img{
+        zoom: .7;
+    }
+    #wrapper > #charlas > #body > .container > ul > li > a > span{
+        top: 138px;
+    }
+    
+        
 }
 
 @media only screen and (min-width: 1417px) {}

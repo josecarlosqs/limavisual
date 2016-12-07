@@ -4,7 +4,8 @@ $(document).ready(function(){
         selectBoxText = $("button#selectBox").children("span"),
         menuBox = selectBox.next(),
         regForm = $("#form-container > form"),
-        imgConfirmForm = $("#form-container > form").next();
+        imgConfirmForm = $("#form-container > form").next(),
+        linkDayCharla = $(".linkDayCharla");
     btnInscribete.click(function(){
         location.href = "registro.html";
     });
@@ -21,5 +22,9 @@ $(document).ready(function(){
         e.preventDefault();
         regForm.slideUp("fast");
         imgConfirmForm.fadeIn("fast");
+    });
+    linkDayCharla.click(function(){
+        linkDayCharla.removeClass("active");
+        $(this).addClass("active")
     });
 });
